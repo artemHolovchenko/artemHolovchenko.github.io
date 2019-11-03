@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="todo.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="todo.css">
+    <title>Todo</title>
+</head>
+<body>
+    <div id="main">
+    <div class="header">
+        <h1>TODOList</h1>
+        <hr>
+    </div>
+    <div class="action__todo">
+         <input type="search" placeholder="search by title" class="action__todo__input">
+         <select class="action__todo__select1">
+             <option value="all">all</option>
+             <option value="open">open</option>
+             <option value="done">done</option>
+         </select>
+         <select class="action__todo__select2">
+                <option value="all">all</option>
+                <option value="high">high</option>
+                <option value="normal">normal</option>
+                <option value="low">low</option>
+            </select>
+            <button class="action__todo__button">Create</button>
+    </div>
+
+</div>
+
+
+    <div class="create__todo">
+        <div class="create__todo__form">
+         <p>Title:</p>
+         <input type="text" placeholder="Title" class="create__todo__input title">
+         <p>Description:</p>
+         <input type="text" placeholder="Description" class="create__todo__input description">
+         <p>Priority:</p>
+         <select class="create__todo__select">
+                <option value="high">high</option>
+                <option value="normal">normal</option>
+                <option value="low">low</option>
+            </select>
+
+            <div class="create__todo__confirm">
+                    <button class="create__todo__button cancel">Cancel</button>
+        
+                    <button class="create__todo__button save">Save</button>
+            </div>
+        </div>
+    </div>
+
+    <ul class="task_todo">
+
+    </ul>
+</body>
+</html>

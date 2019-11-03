@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1000px;
+}
+
+.header h1{
+    margin: 20px 30px;
+}
+.action__todo{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 130px;
+}
+
+.action__todo__input{
+    border: 1px solid #000;
+    padding: 5px 5px 5px 50px;
+    height: 30px;
+    background: url(109164.png) no-repeat 3px 1px;
+    background-size: auto 90%;
+}
+
+.action__todo__select1{
+    height: 30px;
+    width: 150px;
+    margin-left: 20px;
+}
+.action__todo__select2{
+    height: 30px;
+    width: 150px;
+    margin-left: 20px;
+}
+
+
+.action__todo__button{
+    margin-left: 20px;
+}
+
+.create__todo{
+    display: none;
+    margin-left:400px;
+    width: 300px;
+    height: 350px;
+    border: 1px solid black;
+
+}
+
+.create__todo__form{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.create__todo__form p{
+    margin-top: 10px;
+}
+
+.create__todo__input{
+    width: 95%;
+    margin-top: 10px;
+}
+
+.create__todo__select{
+    margin-top: 10px;
+}
+
+.create__todo__confirm{
+    margin-top:100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task_todo{
+    display: flex;
+    flex-wrap:wrap;
+    margin-left: 130px;
+}
+
+.task__content{
+    width:30%;
+    height: 200px;
+    border: 1px solid black;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.task_todo p{
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.contact__input__header{
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
+   }
+
+
+
+
+   .task_todo .hide{
+       display: none;
+   }
